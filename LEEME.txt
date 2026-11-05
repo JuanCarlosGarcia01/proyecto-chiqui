@@ -1,0 +1,30 @@
+PROYECTO CHIQUI — DISEÑO RENOVADO
+
+Descomprimí el ZIP y abrí index.html. No requiere instalación.
+
+Incluye una portada nueva, tus siete fotos, tarjetas con descripciones y
+selección de servicio, navegación adaptable y acceso de consulta en celulares.
+El contenido genérico no afirma experiencia, certificaciones ni clientes.
+
+DATOS DE LA EMPRESA
+Editá config.js para completar empresa, whatsapp, email y zona.
+WhatsApp debe incluir código de país y número, usando solo dígitos.
+Si completás WhatsApp y correo, se utiliza WhatsApp como canal principal.
+
+CONTACTO
+Mientras no haya un canal configurado, el visitante puede preparar y copiar
+su consulta. No se envía ni se guarda en un servidor. Cuando agregues un
+canal, aparece un enlace para abrir WhatsApp o la aplicación de correo;
+el visitante debe completar el envío allí. No necesita claves ni servicios pagos.
+En navegadores que no permiten copiar automáticamente desde archivos locales,
+el texto queda seleccionado para copiar manualmente.
+
+VERIFICACIÓN
+Se comprobó la sintaxis JavaScript, las rutas locales, los destinos internos
+y la lógica de selección de servicio, preparación de consulta y canales.
+No se pudo completar la verificación visual en navegador porque la vista
+previa no pudo acceder al servidor local de este entorno.
+
+Las fotos provienen del archivo que compartiste. La foto del extintor representa
+el servicio de aparatos a presión. Se preservan los siete servicios; para mayor
+claridad visual, su tarjeta usa el título corto «Aparatos sometidos a presión».
