@@ -1,0 +1,32 @@
+GALERÍA DE PORTADA — 32 FOTOS
+
+Incluye todas las fotos originales, excluyendo 9 duplicados idénticos.
+La galería alterna especialidades, muestra las fotos completas, cambia cada
+5,5 segundos y permite avanzar, retroceder, pausar y deslizar en el celular.
+Se pausa al apoyar el cursor o enfocar los controles. Al avanzar manualmente
+queda pausada. Respeta la preferencia de movimiento reducido del dispositivo.
+
+ACTUALIZAR TU REPOSITORIO ACTUAL SIN REEMPLAZAR TUS DATOS
+1. Copiá galeria.css y galeria.js junto a tu index.html.
+2. Copiá la carpeta img/galeria dentro de tu carpeta img existente.
+3. En tu index.html, justo antes de </head>, agregá estas dos líneas:
+
+<link rel="stylesheet" href="galeria.css">
+<script src="galeria.js" defer></script>
+
+No reemplaces config.js si ya agregaste nombre, WhatsApp o correo.
+La galería reemplaza automáticamente la imagen de portada (.hero-photo).
+El ZIP de actualización contiene solo archivos nuevos; no pisa tu configuración.
+
+Luego, desde tu repositorio:
+git add index.html galeria.css galeria.js img/galeria/
+git commit -m "Agregar galería de fotos en la portada"
+git push origin main
+
+El ZIP completo también está listo para descomprimir y abrir index.html,
+pero utiliza la configuración genérica original, sin tus datos de contacto.
+
+Comprobaciones: sintaxis JavaScript, existencia de 32 fotos y pruebas de
+avance/retroceso, pausa, foco, gesto táctil y movimiento reducido.
+Verificación visual en navegador pendiente: la vista previa de este entorno
+no pudo acceder al servidor local durante la revisión anterior.

@@ -1,30 +1,15 @@
-PROYECTO CHIQUI — DISEÑO RENOVADO
+PORTADA CON FOTOGRAFÍAS INTEGRADAS
 
-Descomprimí el ZIP y abrí index.html. No requiere instalación.
+Reemplazá galeria.css y galeria.js en tu proyecto.
+No cambies index.html, config.js ni la carpeta de imágenes.
+Recargá con Ctrl + F5 después de guardar.
 
-Incluye una portada nueva, tus siete fotos, tarjetas con descripciones y
-selección de servicio, navegación adaptable y acceso de consulta en celulares.
-El contenido genérico no afirma experiencia, certificaciones ni clientes.
+Las fotos ahora ocupan todo el fondo de la portada. El texto se superpone
+sobre un degradado azul para mantener su lectura. Sin tarjeta, bordes,
+contador ni panel separado; controles discretos abajo a la derecha.
+En celulares el degradado cambia de orientación para acompañar el texto.
+Las fotos se encuadran para cubrir el fondo, por lo que pueden recortarse;
+las fotos completas de los servicios siguen disponibles en sus tarjetas.
 
-DATOS DE LA EMPRESA
-Editá config.js para completar empresa, whatsapp, email y zona.
-WhatsApp debe incluir código de país y número, usando solo dígitos.
-Si completás WhatsApp y correo, se utiliza WhatsApp como canal principal.
-
-CONTACTO
-Mientras no haya un canal configurado, el visitante puede preparar y copiar
-su consulta. No se envía ni se guarda en un servidor. Cuando agregues un
-canal, aparece un enlace para abrir WhatsApp o la aplicación de correo;
-el visitante debe completar el envío allí. No necesita claves ni servicios pagos.
-En navegadores que no permiten copiar automáticamente desde archivos locales,
-el texto queda seleccionado para copiar manualmente.
-
-VERIFICACIÓN
-Se comprobó la sintaxis JavaScript, las rutas locales, los destinos internos
-y la lógica de selección de servicio, preparación de consulta y canales.
-No se pudo completar la verificación visual en navegador porque la vista
-previa no pudo acceder al servidor local de este entorno.
-
-Las fotos provienen del archivo que compartiste. La foto del extintor representa
-el servicio de aparatos a presión. Se preservan los siete servicios; para mayor
-claridad visual, su tarjeta usa el título corto «Aparatos sometidos a presión».
+Se mantiene la lógica de reproducción y pausa previamente comprobada.
+La nueva composición visual está pendiente de verificación en navegador.
