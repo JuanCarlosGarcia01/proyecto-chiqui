@@ -1,0 +1,68 @@
+CATÁLOGO FOTOVOLTAICO — ACTUALIZACIÓN PARA TU PÁGINA
+
+INSTALACIÓN
+1. Guardá una copia de tu index.html actual.
+2. Copiá los cuatro archivos del ZIP a la carpeta del proyecto:
+   index.html, catalogo.html, catalogo.css y catalogo.js.
+3. Conservá tu config.js, script.js, style.css, galeria.js, galeria.css e img.
+4. Abrí index.html y entrá a «Equipos solares».
+
+El index incluido parte del archivo actual de tu carpeta del escritorio.
+Se agregaron únicamente el enlace del menú, una sección de acceso al catálogo
+y su hoja de estilos. La configuración de CapCoop y su contacto se conserva
+porque config.js no se reemplaza ni se incluye en este ZIP.
+
+CONTENIDO
+186 equipos y componentes de la sección ENERGÍA SOLAR FOTOVOLTAICA:
+6 paneles, 17 estructuras, 58 inversores, 37 accesorios, 53 baterías y sus
+accesorios, 2 reguladores y 13 protecciones/conectores.
+Se tomaron códigos y descripciones de las columnas A y B, filas 27 a 236,
+de la primera hoja del Excel suministrado (edición octubre 2026).
+No se incluyeron importes, IVA, descuentos, condiciones comerciales,
+fechas de ingreso ni la planilla original en los archivos web.
+No se incorporaron las líneas de agua caliente, climatización, bombas solares,
+iluminación ni electrificadores, para mantener el alcance fotovoltaico pedido.
+La página muestra especificaciones disponibles en el archivo del proveedor;
+no sustituye la ficha técnica completa de cada fabricante.
+
+CONSULTAS
+«Consultar por este equipo» selecciona el modelo en el formulario.
+El cliente completa nombre, cantidad, localidad y consulta.
+«Preparar consulta» genera el mensaje con código y categoría.
+«Abrir WhatsApp» usa el número de tu config.js y deja el texto preparado.
+El cliente confirma el envío en WhatsApp. Si no hay WhatsApp, se usa el correo
+configurado; si no hay ninguno, queda disponible copiar el mensaje.
+No se guarda información del visitante ni se simula un envío.
+
+DATOS A CONFIRMAR CON EL PROVEEDOR
+Se dejaron avisos en las fichas correspondientes. En Merc-30G1A-HE se omitió
+la potencia contradictoria de la descripción; en CAL30/40/50/60-RH y OBE70
+se omitió la capacidad con unidad contradictoria. No se eligió un valor
+como definitivo sin confirmación.
+- AS-7M108N-BHC-440W (fila 28): Confirmar la variante exacta del modelo: el código y la descripción del proveedor difieren.
+- MOD5000TL3-X (WIFI-X) (fila 63): Confirmar la potencia nominal: el proveedor indica 5000 W en la descripción y 6 kW en el dato adicional.
+- MOD10KTL3-X2 PRO (WIFI-X) (fila 65): Confirmar la variante exacta: el código indica X2 PRO y la descripción indica X.
+- Cer-4.4G1-LE (fila 140): Confirmar la potencia nominal: el proveedor indica 4400 W en la descripción y 5,5 kW en el dato adicional.
+- CE4850-EU-80-H(220V) (fila 141): Confirmar la potencia nominal: el proveedor indica 5000 W en la descripción y 5,5 kW en el dato adicional.
+- Merc-30G1A-HE (fila 152): Potencia nominal pendiente de confirmación: el proveedor informa 20 kW en la descripción y 30 kW en el dato adicional.
+- CAL30-RH (fila 167): Confirmar la capacidad energética y su unidad: la descripción del proveedor usa kW y el dato adicional usa kWh.
+- CAL40-RH (fila 168): Confirmar la capacidad energética y su unidad: la descripción del proveedor usa kW y el dato adicional usa kWh.
+- CAL50-RH (fila 169): Confirmar la capacidad energética y su unidad: la descripción del proveedor usa kW y el dato adicional usa kWh.
+- CAL60-RH (fila 170): Confirmar la capacidad energética y su unidad: la descripción del proveedor usa kW y el dato adicional usa kWh.
+- OBE70 (fila 177): Confirmar la capacidad energética y su unidad: la descripción del proveedor usa kW y el dato adicional usa kWh.
+
+VERIFICACIONES
+Rutas y enlaces internos, estructura HTML y sintaxis JavaScript.
+Pruebas de búsqueda, categorías, selección de modelo, cantidad, mensajes,
+canal de WhatsApp/correo y limpieza de borradores al cambiar datos.
+La revisión visual en navegador quedó pendiente: la herramienta de control
+se detuvo porque no pudo verificar con seguridad la URL de la ventana.
+
+PUBLICACIÓN
+El Excel de precios está dentro de tu carpeta de proyecto. Conservá ese Excel
+fuera de la carpeta que publiques: no lo subas como parte del catálogo.
+Para subir únicamente esta actualización:
+
+git add index.html catalogo.html catalogo.css catalogo.js
+git commit -m "Agregar catálogo fotovoltaico sin precios y consultas por equipo"
+git push origin main
